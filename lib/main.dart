@@ -1,5 +1,6 @@
 
 import 'package:api_calling_2025/MultiData_ComplexAPI/multidata_screen_with_model.dart';
+import 'package:api_calling_2025/MultiData_ComplexAPI/multidata_screen_without_model.dart';
 import 'package:api_calling_2025/MultiplePostListAPI/screen_with_model_List.dart';
 import 'package:api_calling_2025/MultiplePostListAPI/screen_without_model_list.dart';
 import 'package:api_calling_2025/SinglePostAPI/screen_without_model.dart';
@@ -39,7 +40,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: MultidataScreenWithModel(),
+      home: MultidataScreenWithoutModel(),
     );
   }
 }

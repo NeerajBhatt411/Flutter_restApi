@@ -94,4 +94,21 @@ class ApiServices {
 
   }
 
+// complex API Calling with model  ye api mai pehle start hoga object say phir list h and uska andar objects h
+  Future<dynamic> getMultiDataWithoutModel() async {
+    try{
+      var response = await http.get(Uri.parse("https://reqres.in/api/unkown"));
+      if(response.statusCode==200){
+        var model = json.decode(response.body);
+        return model;
+      }
+    }
+    catch(e){
+      print(e.toString());
+    }
+    return null;
+
+
+  }
+
 }
