@@ -1,4 +1,4 @@
-import 'package:api_calling_2025/api/api_services.dart';
+import 'package:api_calling_2025/GetApi/api_services.dart';
 import 'package:api_calling_2025/model/multiple_post_list_model.dart';
 import 'package:flutter/material.dart';
 

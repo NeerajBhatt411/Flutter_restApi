@@ -1,4 +1,4 @@
-import 'package:api_calling_2025/api/api_services.dart';
+import 'package:api_calling_2025/GetApi/api_services.dart';
 import 'package:flutter/material.dart';
 class ScreenWithoutModel extends StatefulWidget {
   const ScreenWithoutModel({super.key});
